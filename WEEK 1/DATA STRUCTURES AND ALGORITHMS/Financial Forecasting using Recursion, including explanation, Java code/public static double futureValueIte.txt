@@ -1,0 +1,6 @@
+public static double futureValueIterative(double presentValue, double rate, int years) {
+    for (int i = 0; i < years; i++) {
+        presentValue *= (1 + rate);
+    }
+    return presentValue;
+}
